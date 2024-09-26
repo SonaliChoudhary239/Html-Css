@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title>User Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <label for="name"> Name</label>
+            <input type="text" 
+                  
+                   placeholder="Enter your  name" required><br>
+    
+         <label for="Fathername"> Father Name</label>
+            <input type="text" 
+                   placeholder="Enter your Father name" required><br>
+    
+       <label for="DOB"> Date of birth</label>
+            <input type="calander" 
+                   placeholder="Enter your  DOB" required><br>
+    
+          <label for="Address"> Address</label>
+            <textarea rows="3" cols="25"> Address
+            </textarea>
+            <br>
+    
+                   <label for="State">Your State</label>
+                   <select>
+                    <option >Madhya pradesh</option>
+                    <option >Maharashtra</option>
+                    <option >Andhra Pradesh</option>
+                    <option >Arunachal Pradesh </option>
+                    <option >Bihar</option>
+                    <option >Assam </option>
+                    <option >Goa </option>
+                    <option >Jharkhand </option>
+                    <option >Manipur</option>
+                </select><br>
+            
+                   <label for="male">Male</label>
+    
+                <input type="radio" 
+                     name="gender" 
+                       value="male">
+    
+                <label for="female">Female</label>
+                <input type="radio" 
+                    
+                       name="gender" 
+                       value="female">
+    <br>
+               
+                <input type="submit" value="Submit"><br>
+    
+                <input type="reset" value="reset"><br>
+    
+                <button type="button" 
+                onclick="alert('Welcome to subition form')">
+            Click Here
+        </button>
+        <fieldset form="mygeeks">
+            <legend>JAVA:</legend>
+            Title:
+            <input type="text">
+            <br> Link:
+            <input type="text">
+            <br> User ID:
+            <input type="text">
+        </fieldset>
+                </form>
+           
+</body>
+
+</html>
